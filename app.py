@@ -1,5 +1,4 @@
 import requests
-import json
 from datetime import datetime,timedelta
 
 #getting data with request and using j sonnnnn
@@ -11,4 +10,4 @@ events: list[dict] = response.json()
 today = datetime.today().date()
 tommrow = today+timedelta(days=1)
 
-#it time to lub it i mean loop through it 
+#it time to loop through it 
